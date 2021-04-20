@@ -2,5 +2,8 @@
   <img src="./_media/logo.png" data-origin="_media/logo.png" alt="icon" width="100">
 </p>
 
-* [Home](/)
+* [BlockyJump Parkour](/)
+* Get started
+  * [Setup instructions](setup.md)
+* Further information
 * [Commands](commands.md)
