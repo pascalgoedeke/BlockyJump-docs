@@ -5,5 +5,7 @@
 * [BlockyJump Parkour](/)
 * Get started
   * [Setup instructions](setup.md)
+  * [Arenas](arenas.md)
 * Further information
-* [Commands](commands.md)
+  * [Commands](commands.md)
+  * [Permissions](permissions.md)
