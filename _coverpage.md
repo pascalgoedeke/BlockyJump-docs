@@ -1,4 +1,4 @@
-![logo](_media/cover.png)
+![logo](_media/cover.png ':size=800')
 
 # **BlockyJump Parkour**
 
