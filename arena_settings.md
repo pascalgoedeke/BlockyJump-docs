@@ -11,7 +11,7 @@ To enable or disable an arena, you can click on the corresponding item in the Ad
 `/bgj admin arena disable <arena>`
 
 ## Cooldown
-If you don't want your players to be able to complete the parkour several times in a row (maybe to prevent them from recieving the reward several times in a row), you can setup a cooldown.  
+If you don't want your players to be able to complete the parkour several times in a row (maybe to prevent them from receiving the reward several times in a row), you can setup a cooldown.  
 A cooldown is essentially a waiting timer to join again once an arena is completed. The cooldown length is given in **minutes**.
 
 `/bgj admin arena cooldown set <arena> <time>`

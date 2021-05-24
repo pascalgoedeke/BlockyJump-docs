@@ -14,6 +14,7 @@
   * [Commands](commands.md)
   * [Permissions](permissions.md)
   * [Placeholders](placeholders.md)
+* [About](about.md)
 
 Ideas:
 Challenge
