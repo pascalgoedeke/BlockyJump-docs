@@ -2,10 +2,7 @@
   <img src="./_media/logo.png" data-origin="_media/logo.png" alt="icon" width="100">
 </p>
 
-<ul>
-  <li><a href="#/" title="BlockyJump Parkour" style="font-size: 20px; font-weight: bold;">BlockyJump Parkour</a></li>
-</ul>
-
+* [BlockyJump Parkour](/ ':class=sidebar-heading')
 * Get started
   * [Setup instructions](setup.md)
   * [Creating arenas](arena_create.md)

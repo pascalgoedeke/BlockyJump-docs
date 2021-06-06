@@ -101,7 +101,7 @@ Example: `messages_fr.yml` (or `messages_french.yml` if you prefer this format)
 Then, translate all the existing messages to your language.  
 To select your language, again, open the `config.yml` and paste whatever you chose for `[language]` as a value to the key `language`.
 
-<button title="Click to show or hide content" type="button" style="cursor: pointer; background: white; border: 0.125em solid black; padding: 0.5em 0.75em; color: black; font-family: var(--siteFont),Helvetica Neue,Arial,sans-serif" onclick="if(document.getElementById('spoiler-messages-en') .style.display=='none') {document.getElementById('spoiler-messages-en') .style.display=''}else{document.getElementById('spoiler-messages-en') .style.display='none'}">Show default messages_en.yml</button>
+<button title="Click to show or hide content" type="button" class="content-toggle-button" onclick="toggle_content('spoiler-messages-en')">Show default messages_en.yml</button>
 <div id="spoiler-messages-en" style="display:none">
 
 ```yaml
@@ -581,7 +581,7 @@ gui:
 
 </div>
 
-<button title="Click to show or hide content" type="button" style="cursor: pointer; background: white; border: 0.125em solid black; padding: 0.5em 0.75em; color: black; font-family: var(--siteFont),Helvetica Neue,Arial,sans-serif" onclick="if(document.getElementById('spoiler-messages-de') .style.display=='none') {document.getElementById('spoiler-messages-de') .style.display=''}else{document.getElementById('spoiler-messages-de') .style.display='none'}">Show default messages_de.yml</button>
+<button title="Click to show or hide content" type="button" class="content-toggle-button" onclick="toggle_content('spoiler-messages-de')">Show default messages-de.yml</button>
 <div id="spoiler-messages-de" style="display:none">
 
 ```yaml

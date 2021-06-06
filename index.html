@@ -13,6 +13,44 @@
     title="docsify-darklight-theme"
     type="text/css"
   />
+  <style type="text/css">
+  @import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+  
+  .sidebar-heading {
+    font-size: 20px !important;
+    font-weight: bold !important;
+  }
+  
+  .content-toggle-button {
+    cursor: pointer;
+    background: white;
+    border: 0.125em solid black;
+    padding: 0.5em 0.75em;
+    color: black;
+    font-family: var(--siteFont),Helvetica Neue,Arial,sans-serif;
+  }
+  
+  /* cover page z-index fix */
+  section.cover .cover-main {
+    z-index: 0 !important;
+    position: relative;
+  }
+  
+  /* darkmode button mobile fix */
+  #docsify-darklight-theme {
+    left: auto !important;
+  }
+  
+  </style>
+  <script>
+  function toggle_content(id) {
+    if(document.getElementById(id).style.display == 'none') {
+      document.getElementById(id).style.display = '';
+    } else {
+      document.getElementById(id).style.display = 'none';
+    }
+  }
+  </script>
 </head>
 <body>
   <div id="app"></div>
@@ -23,11 +61,12 @@
       subMaxLevel: 2,
       
       darklightTheme: {
+        siteFont : 'Fira Sans, PT Sans, Source Sans Pro',
         dark: {
-          coverBackground: 'linear-gradient(to left bottom, hsl(194, 100%, 85%) 0%,hsl(24, 100%, 85%) 100%)'
+          coverBackground: 'linear-gradient(to left bottom, rgb(212 34 66) 0%, rgb(67 67 67) 100%)'
         },
         light: {
-          coverBackground: 'linear-gradient(to left bottom, hsl(194, 100%, 85%) 0%,hsl(24, 100%, 85%) 100%)'
+          coverBackground: 'linear-gradient(to left bottom, hsl(194, 100%, 85%) 0%, hsl(24, 100%, 85%) 100%)'
         }
       }
     }
