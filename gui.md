@@ -1,6 +1,6 @@
 # GUI
 BlockyJump includes an easy-to-use GUI for both players and admins. That way, you (almost) don't have to remember any commands and save time.  
-It's designed to be intuitive and if you ever struggle, there's inbuilt help. The GUI will only display options the player has permission to. ([➜Permissions](permission.md))  
+It's designed to be intuitive and if you ever struggle, there's inbuilt help. The GUI will only display options the player has permission to. ([➜Permissions](permissions.md))  
 To open the main menu GUI, simply use the command:  
 
 `/bgj`
@@ -24,7 +24,7 @@ GUIs are simply **inventories**, just like the player's inventory or the invento
 The plugin then places **items** inside of these inventories with act as **elements** of a specific window.  
 Each window has its own set of items in it. These items can give you **information** (hover over them to see the text) or act as **buttons**.  
 To interact with a GUI, simply **click on an item** and the associated action will be triggered.  
-GUIs make it a lot easier to work with a plugin, as you don't need to remember all the commands. Pretty coll, huh?  
+GUIs make it a lot easier to work with a plugin, as you don't need to remember all the commands. Pretty cool, huh?  
 
 ?> **Tip:** BlockyJump-GUIs always have a sign in the upper right corner. This sign always shows a **help message** for the page you are on.
 
